@@ -1,0 +1,155 @@
+@media only screen and (max-width: 600px) {
+
+/*Nav Styles*/
+ul li ul {
+    Background: transparent;
+    Visibility: hidden;
+    Opacity: 0;
+    Min-width: 5rem;
+    Position: absolute;
+    Transition: all 0.5s ease;
+    /*Margin-top: 1rem;*/
+    Left: 0;
+    Display: none;
+    }
+    ul li ul li {
+        Clear: both;
+        Width: 20%;
+        margin-left: 4em;
+    }
+    ul li:hover > ul, ul li ul:hover {
+        top:0.2em;
+        /*width: 5%;*/
+        Visibility: visible;
+        Opacity: 1;
+        Display:flex;
+        margin:0;
+        padding:0;
+    }
+    ul li ul li:hover {
+        text-shadow: rgb(156, 153, 148) 1px 1px 0px;
+    }
+    li {
+        color: white;
+        background: black;
+        display: block;
+        /*float: left;*/
+        padding: 1rem;
+        position: relative;
+        text-decoration: none;
+        transition-duration: 0.5s;
+    }
+    li a {
+        color: #f7941d;
+        
+    }
+    ul {
+        width: 100%;
+    }
+/*Image Styles*/
+.banner {
+    width:100%;
+}
+/*Font Styles*/
+@font-face {
+    font-family: 'mollen';
+    src: url('fonts/Mollen Personal Use-Regular.otf') format('opentype');
+}
+p {
+    font-size: 0.8em;
+    margin: 1em;
+}
+/*Body Styles*/
+body {
+    width: 100%;
+    font-family: 'mollen';
+}
+/*Footer Styles*/
+footer {
+    text-align: center;
+    background-color: rgb(51, 49, 49);
+    padding: 0.5em;
+}
+/*Center*/
+.center {
+    text-align: center;
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 990px) {
+    
+    /*Nav Styles*/
+ul li ul {
+    Background: transparent;
+    Visibility: hidden;
+    Opacity: 0;
+    Min-width: 5rem;
+    Position: absolute;
+    Transition: all 0.5s ease;
+    /*Margin-top: 1rem;*/
+    Left: 0;
+    Display: none;
+    }
+    ul li ul li {
+        Clear: both;
+        Width: 20%;
+        margin-left: 4em;
+    }
+    ul li:hover > ul, ul li ul:hover {
+        top:0.2em;
+        /*width: 5%;*/
+        Visibility: visible;
+        Opacity: 1;
+        Display:flex;
+        margin:0;
+        padding:0;
+    }
+    ul li ul li:hover {
+        text-shadow: rgb(156, 153, 148) 1px 1px 0px;
+    }
+    li {
+        color: white;
+        background: black;
+        display: block;
+        /*float: left;*/
+        padding: 1rem;
+        position: relative;
+        text-decoration: none;
+        transition-duration: 0.5s;
+    }
+    li a {
+        color: #f7941d;
+        
+    }
+    ul {
+        width: 100%;
+    }
+/*Image Styles*/
+.banner {
+    width:100%;
+}
+/*Font Styles*/
+@font-face {
+    font-family: 'mollen';
+    src: url('fonts/Mollen Personal Use-Regular.otf') format('opentype');
+}
+p {
+    font-size: 0.8em;
+    margin: 1em;
+}
+/*Body Styles*/
+body {
+    width: 100%;
+    font-family: 'mollen';
+}
+/*Footer Styles*/
+footer {
+    text-align: center;
+    background-color: rgb(51, 49, 49);
+    padding: 0.5em;
+}
+/*Center*/
+.center {
+    text-align: center;
+}
+}
